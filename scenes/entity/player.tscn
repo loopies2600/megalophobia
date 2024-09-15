@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://67lsaaw851q7"]
+
+[ext_resource type="Script" path="res://scenes/entity/player.gd" id="1_0g3df"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_cdooh"]
+
+[node name="Player" type="CharacterBody3D"]
+script = ExtResource("1_0g3df")
+
+[node name="BaseShape" type="CollisionShape3D" parent="."]
+shape = SubResource("CylinderShape3D_cdooh")
+
+[node name="BaseCam" type="Camera3D" parent="."]

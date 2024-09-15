@@ -1,0 +1,26 @@
+[gd_resource type="MeshLibrary" load_steps=5 format=3 uid="uid://db34kg3w4int4"]
+
+[ext_resource type="ArrayMesh" uid="uid://bddd0clprafau" path="res://resources/mesh/bridge/bridge_base.res" id="1_pwnme"]
+[ext_resource type="Shape3D" uid="uid://cmo7u7owihc1v" path="res://resources/meshlibrary/bridge_base_shape.tres" id="2_8wqgq"]
+[ext_resource type="ArrayMesh" uid="uid://c4dcxcka300fq" path="res://resources/mesh/bridge/bridge_1stick.res" id="2_6648r"]
+[ext_resource type="ArrayMesh" uid="uid://jwnw7y5bod1w" path="res://resources/mesh/bridge/blockbench_export_mesh.res" id="3_umr4r"]
+
+[resource]
+item/0/name = "Bridge base"
+item/0/mesh = ExtResource("1_pwnme")
+item/0/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/0/shapes = [ExtResource("2_8wqgq"), Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)]
+item/0/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/0/navigation_layers = 1
+item/1/name = "1 Stick"
+item/1/mesh = ExtResource("2_6648r")
+item/1/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/1/shapes = []
+item/1/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/1/navigation_layers = 1
+item/2/name = "2 Sticks"
+item/2/mesh = ExtResource("3_umr4r")
+item/2/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/2/shapes = []
+item/2/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/2/navigation_layers = 1
