@@ -7,6 +7,7 @@
 
 [node name="Player" type="CharacterBody3D"]
 script = ExtResource("1_0g3df")
+do_gravity = true
 
 [node name="BaseShape" type="CollisionShape3D" parent="."]
 shape = SubResource("CylinderShape3D_cdooh")
