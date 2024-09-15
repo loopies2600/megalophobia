@@ -1,7 +1,7 @@
 extends CharacterBody3D
 class_name Player
 
-@export var base_speed : float = 2.0
+@export var base_speed : float = 1.3
 @export var do_gravity : bool = false
 
 func _physics_process(delta: float) -> void:
