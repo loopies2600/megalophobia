@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://67lsaaw851q7"]
+[gd_scene load_steps=4 format=3 uid="uid://67lsaaw851q7"]
 
-[ext_resource type="Script" path="res://scenes/entity/player.gd" id="1_0g3df"]
+[ext_resource type="Script" path="res://scenes/entity/player/player.gd" id="1_0g3df"]
+[ext_resource type="Script" path="res://scenes/entity/player/player_camera.gd" id="2_ugp02"]
 
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_cdooh"]
 
@@ -11,3 +12,4 @@ script = ExtResource("1_0g3df")
 shape = SubResource("CylinderShape3D_cdooh")
 
 [node name="BaseCam" type="Camera3D" parent="."]
+script = ExtResource("2_ugp02")

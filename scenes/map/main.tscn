@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://cuftyxordqrl1"]
 
 [ext_resource type="MeshLibrary" uid="uid://db34kg3w4int4" path="res://resources/meshlibrary/bridge_main.tres" id="1_81thg"]
-[ext_resource type="PackedScene" uid="uid://67lsaaw851q7" path="res://scenes/entity/player.tscn" id="1_ndhac"]
+[ext_resource type="PackedScene" uid="uid://67lsaaw851q7" path="res://scenes/entity/player/player.tscn" id="1_ndhac"]
 
 [sub_resource type="Environment" id="Environment_4btqg"]
 background_mode = 3
